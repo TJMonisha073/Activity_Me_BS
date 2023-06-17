@@ -1,0 +1,15 @@
+/* Extra Small To Medium */
+
+@media (min-width: 0px) and (max-width: 992px) { 
+    /* about me section start */
+    .about-section h3 {
+        line-height: 1.5rem;
+        margin-bottom: 15px;
+    }
+    .about-section p {
+        line-height: 1.5rem;
+        margin-bottom: 15px;
+    }
+    /* about me section end */
+
+}

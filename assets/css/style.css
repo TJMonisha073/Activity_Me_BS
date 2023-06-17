@@ -1,0 +1,168 @@
+/* Common Code Start */
+:root {
+    --brand-color: #30C39E;
+    --secondary-color: #0A8EA0;
+    --light-color: #fff;
+    --dark-color: #333;
+    --soft-dark: #6c6d73;
+    --soft-color: #95938B;
+    --secondary-bg-color: #F8F9FA;
+    --transition: 0.5s linear;
+}
+
+.container {
+    min-width: 400px; 
+    max-width: 1200px;
+}
+ 
+.brand-color {
+    color: var(--brand-color);
+}
+
+.text-justify {
+    text-align: justify;
+}
+/* Common Code End */
+/* Navbar Section Start */
+
+.navbar .navbar-brand i {
+    color: var(--brand-color);
+}
+.navbar .navbar-brand {
+    color: var(--light-color);
+}
+.navbar .nav-link {
+    color: var(--light-color);
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: var(--transition);
+    
+}
+.navbar .nav-link:focus, 
+.navbar .nav-link:hover {
+    color: var(--brand-color);
+}
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show {
+    color: var(--brand-color);
+}
+/* Navbar Section End */
+/* Banner Section Start */
+.banner-section {
+    background: linear-gradient(rgba(17,17,17,0.6), rgba(17,17,17,0.6)), url(../photos/banner.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: -110px;
+}
+.banner-section .content-area {
+    margin-top: 50px;
+}
+.banner-section .content-area h3 {
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+.banner-section .content-area h1 {
+    color: var(--brand-color);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.banner-section .content-area p {
+    color: var(--light-color);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.banner-section .content-area a {
+    color: var(--light-color);
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 2px solid var(--light-color);
+    padding: 12px 35px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: var(--transition);
+    margin: 0px 8px 0px 0px;
+}
+.banner-section .content-area a:hover {
+    color: var(--light-color);
+    background: var(--brand-color);
+    border: 2px solid var(--brand-color);
+}
+/* Banner Section End */
+/* About section start */
+.title {
+    position: relative;
+}
+.title h2 {
+    color: var(--dark-color);
+    font-size: 4.5rem;
+    letter-spacing: 4px;
+}
+.title::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 42%;
+    width: 14%;
+    height: 4px;
+    background: var(--dark-color);
+}
+.about-section a {
+    color: var(--light-color);
+    background: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    transition: var(--transition);
+}
+.about-section a:hover {
+    background: var(--light-color);
+    border: 2px solid var(--dark-color);
+}
+.about-section h3 {
+    color: var(--dark-color);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.about-section h5 {
+    color: var(--dark-color);
+    display: flex;
+    justify-content: space-between;
+}
+.about-section p {
+    color: var(--soft-dark);
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+/* About section end */
+/* Services Section Start */
+.services-section {
+    color: var(--light-color);
+    background: var(--brand-color);
+}
+.services-section .title::after {
+    content: '';
+    background: var(--light-color);
+}
+/* Services Section End */
+/* Experience Section Start */
+.experience-section .content-area .content-info {
+    padding: 30px 40px 15px 40px;
+    background: var(--secondary-bg-color);
+}
+.experience-section .content-area .content-info h3 {
+    font-size: 1.4rem;
+    color: var(--dark-color);
+    display: flex;
+    justify-content: space-between;
+}
+.experience-section .content-area .content-info h3 span {
+    font-size: 1rem;
+    color: var(--light-color);
+    padding: 5px 10px;
+    display: inline-block;
+    background: var(--brand-color);
+}
+.experience-section .content-area .content-info p {
+    color: var(--soft-dark);
+    line-height: 2rem;
+    text-align: justify;
+    margin-top: 20px;
+}
+/* Experience Section End */
