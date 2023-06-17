@@ -1,6 +1,11 @@
 /* Extra Small To Medium */
 
 @media (min-width: 0px) and (max-width: 992px) { 
+    /* navbar section start  */
+    .navbar .dropdown-menu {
+        width: 20%;
+    }
+    /* navbar section end  */
     /* about me section start */
     .about-section h3 {
         line-height: 1.5rem;
@@ -11,5 +16,15 @@
         margin-bottom: 15px;
     }
     /* about me section end */
-
+    /* blog section start */
+    .blog-section .content-area p {
+        width: 100%;
+    }
+    /* blog section end */
+    /* contact section start */
+    .contact-section .content-area .address-info form button {
+        margin-left: 0%;
+    }
+    /* contact section end */
+    
 }
