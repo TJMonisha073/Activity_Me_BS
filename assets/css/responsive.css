@@ -2,9 +2,25 @@
 
 @media (min-width: 0px) and (max-width: 992px) { 
     /* navbar section start  */
-    .navbar .dropdown-menu {
-        width: 20%;
+    .navbar .nav-link {
+        color: var(--dark-color);
+        background: var(--light-color);
+        width: 60%;
+        margin: 0px auto;
     }
+    .navbar .dropdown-menu {
+        width: 60%;
+        border-radius: 0;
+    }
+    .navbar .dropdown-menu {
+        background: var(--light-color);
+        margin: 0px auto;
+    }
+    .navbar .dropdown-menu li a {
+        color: var(--dark-color);
+        text-align: center;
+    }
+    
     /* navbar section end  */
     /* about me section start */
     .about-section h3 {
